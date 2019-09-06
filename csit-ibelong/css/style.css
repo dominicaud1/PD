@@ -6,11 +6,22 @@ ul {
 }
 
 /* TODO: Add more styling to your navigation bar - See W3 Schools for help */
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Arial;
+}
 
-
-
-
+li a:hover {
+  background-color: #111;
+}
 
 /* Structuring & Styling- Gallery */
 /* TODO: Change styling to your colour scheme - See W3 Schools for help */
@@ -34,4 +45,18 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color:white;
+}
+
+
+p {
+  color:blue;
+}
+
+h2 {
+  color:red;
+}
+
+html {
+  background-color:black;
 }
